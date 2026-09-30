@@ -2,13 +2,13 @@ services:
 
   frontend:
     build:
-      context: ./frontend
+      context: sheelbhatt/frontend
       dockerfile: Dockerfile
     image: frontend:latest
 
   backend:
     build:
-      context: ./backend
+      context: sheelbhattgit add ./backend
       dockerfile: Dockerfile
     image: backend:latest
     environment:
